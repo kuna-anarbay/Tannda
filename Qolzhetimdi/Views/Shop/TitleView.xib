@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="customSectionHeader" id="fNa-yQ-yeA" customClass="TitleView" customModule="Qolzhetimdi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gp9-os-goc">
+                    <rect key="frame" x="162" y="4" width="90" height="36"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="app.gift.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="gcp-O7-yHC">
+                            <rect key="frame" x="0.0" y="1" width="36" height="33.5"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="36" id="aS0-ye-d4T"/>
+                                <constraint firstAttribute="width" constant="36" id="fLD-kE-BEW"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="twO-hz-hzF">
+                            <rect key="frame" x="48" y="0.0" width="42" height="36"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="36" id="uMu-IJ-bp1"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="gcp-O7-yHC" firstAttribute="leading" secondItem="Gp9-os-goc" secondAttribute="leading" id="0aF-Kq-XIW"/>
+                        <constraint firstAttribute="trailing" secondItem="twO-hz-hzF" secondAttribute="trailing" id="22j-FV-MhH"/>
+                        <constraint firstItem="twO-hz-hzF" firstAttribute="centerY" secondItem="Gp9-os-goc" secondAttribute="centerY" id="9f6-fv-S7h"/>
+                        <constraint firstItem="twO-hz-hzF" firstAttribute="leading" secondItem="gcp-O7-yHC" secondAttribute="trailing" constant="12" id="QPf-Jd-ddI"/>
+                        <constraint firstItem="gcp-O7-yHC" firstAttribute="centerY" secondItem="Gp9-os-goc" secondAttribute="centerY" id="ZEO-Zl-5Xa"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Gp9-os-goc" firstAttribute="centerX" secondItem="fNa-yQ-yeA" secondAttribute="centerX" id="2t4-Iy-HbK"/>
+                <constraint firstAttribute="bottom" secondItem="Gp9-os-goc" secondAttribute="bottom" constant="4" id="4kT-rv-0CK"/>
+                <constraint firstItem="Gp9-os-goc" firstAttribute="centerY" secondItem="fNa-yQ-yeA" secondAttribute="centerY" id="eDx-y4-anY"/>
+                <constraint firstItem="Gp9-os-goc" firstAttribute="top" secondItem="fNa-yQ-yeA" secondAttribute="top" constant="4" id="wvG-lm-b4q"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="qbP-4q-xQH"/>
+            <connections>
+                <outlet property="imageView" destination="gcp-O7-yHC" id="5lV-Wd-0fj"/>
+                <outlet property="titleLabel" destination="twO-hz-hzF" id="y6g-72-eUQ"/>
+            </connections>
+            <point key="canvasLocation" x="-357.97101449275362" y="6.6964285714285712"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="app.gift.fill" catalog="system" width="64" height="56"/>
+    </resources>
+</document>
