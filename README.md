@@ -11,19 +11,19 @@
 - [x] Find items and shops
 
 #### Libraries
-You can use [CocoaPods](http://cocoapods.org/) to install `YourLibrary` by adding it to your `Podfile`:
 
-```ruby
-platform :ios, '8.0'
-use_frameworks!
-pod 'YourLibrary'
 ```
-
-To get the full benefits import `YourLibrary` wherever you import UIKit
-
-``` swift
-import UIKit
-import YourLibrary
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Messaging'
+  pod 'SDWebImage'
+  pod 'AssetsPickerViewController', '~> 2.0'
+  pod 'Lightbox'
+  pod 'SPAlert'
+  pod 'GoogleMaps'
+  pod 'GooglePlacePicker'
+  pod 'GooglePlaces'
 ```
 
 ## Screenshots
