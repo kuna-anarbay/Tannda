@@ -27,10 +27,8 @@
 ```
 
 ## Screenshots
-<img src="https://github.com/kuna-anarbay/Tannda/blob/master/iPhone%2011%202.png" style="width=30%" />
-![alt text](https://github.com/kuna-anarbay/Tannda/blob/master/iPhone%2011%202.png)
-![alt text](https://github.com/kuna-anarbay/Tannda/blob/master/iPhone%2011%201.png)
-![alt text](https://github.com/kuna-anarbay/Tannda/blob/master/iPhone%2011-2%201.png)
-![alt text](https://github.com/kuna-anarbay/Tannda/blob/master/iPhone%2011-3%201.png)
-![alt text](https://github.com/kuna-anarbay/Tannda/blob/master/iPhone%2011-6%201.png)
+Solarized dark             |  Solarized Ocean          | Solarized dark            |  Solarized Ocean
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![alt text](https://github.com/kuna-anarbay/Tannda/blob/master/iPhone%2011%202.png)  |  ![alt text](https://github.com/kuna-anarbay/Tannda/blob/master/iPhone%2011%201.png) | ![alt text](https://github.com/kuna-anarbay/Tannda/blob/master/iPhone%2011-2%201.png) | ![alt text](https://github.com/kuna-anarbay/Tannda/blob/master/iPhone%2011-3%201.png)
+
 
