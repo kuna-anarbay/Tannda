@@ -33,8 +33,10 @@ In order to prepare a delicious meal, the role of good food is very important. T
 ```
 
 ## Screenshots
-Welcome page            |  Grocery list          | Item details            |  Order page
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![alt text](https://github.com/kuna-anarbay/Tannda/blob/master/iPhone%2011%202.png)  |  ![alt text](https://github.com/kuna-anarbay/Tannda/blob/master/iPhone%2011%201.png) | ![alt text](https://github.com/kuna-anarbay/Tannda/blob/master/iPhone%2011-2%201.png) | ![alt text](https://github.com/kuna-anarbay/Tannda/blob/master/iPhone%2011-3%201.png)
+Welcome page            |  Grocery list          
+:-------------------------:|:-------------------------:
+![alt text](https://github.com/kuna-anarbay/Tannda/blob/master/iPhone%2011%202.png)  |  ![alt text](https://github.com/kuna-anarbay/Tannda/blob/master/iPhone%2011%201.png)
 
-
+Item details            |  Order page
+:-------------------------:|:-------------------------:
+![alt text](https://github.com/kuna-anarbay/Tannda/blob/master/iPhone%2011-2%201.png) | ![alt text](https://github.com/kuna-anarbay/Tannda/blob/master/iPhone%2011-3%201.png)
